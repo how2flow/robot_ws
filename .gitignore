@@ -1,0 +1,7 @@
+# result of colcon build.
+build
+install
+log
+
+# txt files
+*.swp
