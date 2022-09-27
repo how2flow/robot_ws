@@ -1,0 +1,8 @@
+# Goal
+float32 num_goal
+---
+# Result
+float32 num_total
+---
+# Feedback
+string[] num_formula
