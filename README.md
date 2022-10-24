@@ -2,4 +2,10 @@
 
 ros2 workspace.
 
-ros2 packages are managed with submodules.
+move ros2 package to "robot_ws/src"
+
+command:
+```
+cd path/of/robot_ws
+./cb --target=<ros_pkg_name>
+```
