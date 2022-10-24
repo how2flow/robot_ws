@@ -5,7 +5,7 @@ ROBOT_WS="$( cd "$( dirname ${BASH_SOURCE} )" && pwd -P )"
 # option parsing
 for opt in $@; do
   case ${opt} in
-    --target=*)
+    -t=*|--target=*)
     ROS_PKG=${opt#*=}
     ;;
     *)
